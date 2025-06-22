@@ -2,7 +2,7 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 
 # Wandb login
-WANDB_API_KEY="949480fc468133a90171487e61c9830a949d9872"  # Replace with your actual API key
+WANDB_API_KEY="xxxxxxxxxxxxxx"  # Replace with your actual API key
 echo "Logging in to Weights & Biases..."
 wandb login $WANDB_API_KEY
 
@@ -15,7 +15,7 @@ DATASETS=(
     # Add more datasets here
 )
 
-WANDB_ENTITY="royalty-hong-kong-university-of-science-and-technology"  # Updated to match configuration
+WANDB_ENTITY="yxxxxxxxxxxxxxx"  # Updated to match configuration
 
 # Function to run training with specific model
 run_training() {
