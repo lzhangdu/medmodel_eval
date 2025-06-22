@@ -1,0 +1,3 @@
+model_eval/datasets/
+model_eval/scripts/__pycache__/
+shfile/wandb/
